@@ -6,7 +6,7 @@ const password = document.getElementById("password");
     const user = username.value;
     const pass = password.value;
     if (user == "sajib@gmail.com" && pass == "123456") {
-        window.location.href = "/banking.html";
+        window.location.href = "banking.html";
     }
     else {
         alert("Wrong password or email.");
