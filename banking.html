@@ -21,17 +21,17 @@
         <div class="flex gap-8">
             <div class="hover:scale-105 duration-500 flex-grow rounded-lg space-y-4 p-8 w-3/10 bg-teal-600">
                 <h2 class="text-white text-3xl">Total Deposition</h2>
-                <p class="text-white text-2xl">$<span>000</span></p>
+                <p class="text-white text-2xl">$<span id="deposit">000</span></p>
             </div>
 
             <div class="hover:scale-105 duration-500 flex-grow rounded-lg space-y-4 p-8 w-3/10 bg-yellow-600">
                 <h2 class="text-white text-3xl">Total Withdrawal</h2>
-                <p class="text-white text-2xl">$<span>000</span></p>
+                <p class="text-white text-2xl">$<span id="withdraw">000</span></p>
             </div>
 
             <div class="hover:scale-105 duration-500 flex-grow rounded-lg space-y-4 p-8 w-3/10 bg-green-600">
                 <h2 class="text-white text-3xl">Available Balance</h2>
-                <p class="text-white text-2xl">$<span>000</span></p>
+                <p class="text-white text-2xl">$<span id="balance">1500</span></p>
             </div>
         </div>
 
@@ -40,15 +40,15 @@
             <!-- BOTTOM LEFT  -->
             <div class="flex-grow rounded-lg space-y-4 p-8 w-3/10 bg-teal-600">
                 <h2 class="text-white text-3xl">Please Deposit</h2>
-                <input class="focus:scale-110 duration-700 p-2 rounded-md w-4/5 outline-none" type="number" placeholder="Deposit Amount" name="" id=""><br>
-                <button class="hover:bg-white hover:text-green-900 duration-500 hover:border-green-900 border-transparent border-2 p-2 rounded-md bg-green-900 text-white">Deposit</button>
+                <input id="inputDeposit" class="focus:scale-110 duration-700 p-2 rounded-md w-4/5 outline-none" type="number" placeholder="Deposit Amount" name="" id=""><br>
+                <button id="depositBtn" class="hover:bg-white hover:text-green-900 duration-500 hover:border-green-900 border-transparent border-2 p-2 rounded-md bg-green-900 text-white">Deposit</button>
             </div>
 
             <!-- BOTTOM RIGHT  -->
             <div class="flex-grow rounded-lg space-y-4 p-8 w-3/10 bg-yellow-600">
                 <h2 class="text-white text-3xl">Withdraw</h2>
-                <input class="focus:scale-110 duration-700 p-2 rounded-md w-4/5 outline-none" type="number" placeholder="Withdraw Amount" name="" id=""><br>
-                <button class="hover:bg-white hover:text-orange-900 duration-500 hover:border-orange-900 border-transparent border-2 p-2 rounded-md bg-orange-900 text-white">Withdraw</button>
+                <input id="inputWithdraw" class="focus:scale-110 duration-700 p-2 rounded-md w-4/5 outline-none" type="number" placeholder="Withdraw Amount" name="" id=""><br>
+                <button id="withdrawBtn" class="hover:bg-white hover:text-orange-900 duration-500 hover:border-orange-900 border-transparent border-2 p-2 rounded-md bg-orange-900 text-white">Withdraw</button>
             </div>  
         </div>
     </div>
