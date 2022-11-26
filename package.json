@@ -1,0 +1,23 @@
+{
+  "name": "banking-website",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tailwindcss -i ./tailwind/style.css -o ./rawcss/style.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sajib-kumar-biswas/banking-website.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sajib-kumar-biswas/banking-website/issues"
+  },
+  "homepage": "https://github.com/sajib-kumar-biswas/banking-website#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.2.4"
+  }
+}
